@@ -1,0 +1,99 @@
+* {
+	/*border: 1px dashed grey;*/
+}
+body {
+	font-family: Verdana;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+input {
+	width:580px;
+	height:35px;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 18px;
+}
+h1 {
+	text-align: center;
+	margin-top: 14%;
+}
+
+button {
+	margin-top: 30px;
+	width: 130px;
+	height:40px;
+	font-weight: bold;
+	font-size: 0.8em;
+	color: rgb(117,117,117);
+	background-color: rgb(240,240,240);
+	border:none;
+}
+
+.top_nav_right {
+	position: fixed;
+	padding: 10px;
+	top: 0;
+	left: auto;
+	right: 20px;
+	font-family: Verdana;
+	font-size: 0.75em;
+}
+
+#Logon {
+	background-color: rgb(65,128,240);
+	color: white;
+	height: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	display: inline-block;
+	width: 60px;
+	border-radius: 4px;
+}
+
+footer {
+	font-family: Verdana;
+	font-size: 0.75em;
+	background-color: rgb(242,242,242);
+	position: fixed;
+	padding: 10px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 20px;
+}
+
+#footer_nav_left {
+	float: left;
+}
+
+#footer_nav_right {
+	text-align: right;
+	float: right;
+}
+
+a {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.top_nav_right a {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+	
+a:link {
+	text-decoration: none;
+	color: grey;
+	
+}
+a:visited {
+	text-decoration: none;
+	color: grey;
+}
+
+a:hover {
+	text-decoration: underline;
+	
+}
